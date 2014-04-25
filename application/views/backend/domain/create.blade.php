@@ -17,18 +17,18 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="btn btn-info" href="{{base_url('admin/user')}}">Domainleri Listele</a>
+                            <a class="btn btn-info" href="{{base_url('admin/domain')}}">Domainleri Listele</a>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
 
                             <form action="{{base_url('admin/domain')}}" method="post">
                                 <div class="form-group">
-                                    <label>Kullanıcı Adı</label>
+                                    <label>Domain Adı</label>
                                     <input name="domain" class="form-control" placeholder="Alan Adı"  type="text" autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <label>Servis Sağlayıcı Adı</label>
+                                    <label>Biriş Tarihi</label>
                                     <input name="endDate" class="form-control" placeholder="Bitiş Tarihi"  type="date">
                                 </div>
                                 <div class="form-group">
@@ -36,7 +36,7 @@
                                     <input name="serviceProvider" class="form-control" placeholder="Servis Sağlayıcı"  type="text">
                                 </div>
                                 <div class="form-group">
-                                    <label>Servis Sağlayıcı Adı</label>
+                                    <label>Not</label>
                                     <textarea name="note" class="form-control" placeholder="Not"></textarea>
                                 </div>
                                 <input type="submit" class="btn btn-info pull-right" value="Kaydet">

@@ -34,6 +34,7 @@
                                             <th>Alan Adı</th>
                                             <th>Bitiş Tarihi</th>
                                             <th>Servis Sağlayıcı</th>
+                                            <th>Not</th>
                                             <th></th>
                                         </tr>
                                     </thead>
@@ -44,6 +45,7 @@
                                             <td>{{$domain->domain}}</td>
                                             <td>{{ date('d m Y', strtotime($domain->endDate)) }}</td>
                                             <td>{{$domain->serviceProvider}}</td>
+                                            <td>{{$domain->note}}</td>
                                             <td class="center">
                                                 <a class="btn btn-default btn-xs" href="{{base_url("admin/domain/$domain->id/edit")}}">Düzenle</a>
                                                 <a class="btn btn-danger btn-xs" href="{{base_url("admin/domain/$domain->id/delete")}}">Sil</a>

@@ -29,7 +29,7 @@
                                     <input value="{{$domain->domain}}" name="domain" class="form-control" placeholder="Alan Adı"  type="text" autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <label>Servis Sağlayıcı Adı</label>
+                                    <label>Bitiş Tarihi</label>
                                     <input value="{{$domain->endDate}}" name="endDate" class="form-control" placeholder="Bitiş Tarihi"  type="date">
                                 </div>
                                 <div class="form-group">
@@ -37,7 +37,7 @@
                                     <input value="{{$domain->serviceProvider}}" name="serviceProvider" class="form-control" placeholder="Servis Sağlayıcı"  type="text">
                                 </div>
                                 <div class="form-group">
-                                    <label>Servis Sağlayıcı Adı</label>
+                                    <label>Not</label>
                                     <textarea name="note" class="form-control" placeholder="Not">{{$domain->note}}</textarea>
                                 </div>
 
