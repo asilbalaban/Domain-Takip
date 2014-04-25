@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 3.5.8.1
+-- version 4.0.9
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Mar 22, 2014 at 02:46 PM
--- Server version: 5.1.71
--- PHP Version: 5.3.3
+-- Host: 127.0.0.1
+-- Generation Time: Apr 25, 2014 at 08:53 AM
+-- Server version: 5.6.14
+-- PHP Version: 5.5.6
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -17,8 +17,23 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `codeigniter`
+-- Database: `domain_takip`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `domains`
+--
+
+CREATE TABLE IF NOT EXISTS `domains` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `domain` varchar(255) NOT NULL,
+  `serviceProvider` text NOT NULL,
+  `endDate` date NOT NULL,
+  `note` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 

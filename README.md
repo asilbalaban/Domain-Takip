@@ -1,13 +1,9 @@
-# Codeigntier Torpilli Başlangıç Kiti
+# Domain Takip
 
-hızlı bir şekilde geliştirmeye başlamak için üyelik sistemi hazır codeigniter
+Birden fazla servis sağlayıcıda domain barındıranlar için hangi domain ne zaman bitecek ve nerede barındırıyor şeklindeki soruların cevaplarını hızlı bir şekilde bulabilmek için codeigntier-starter kullanılara geliştirilmiş bir sistemdir.
 
-* `my_controller` adında `base_controller` oluşturuldu.
-* kullanıcı yönetimi yazıldı.
-* laravel template engine blade codeigniter'a entegre edildi.
-* development ve production ayarlarının ayrı ayrı ve otomatik yapılması için gerekli ayarlar yapıldı.
-* kullanılan library'ler autoload'a eklendi.
-* codeigniter türkçe dil paketi yazılıma dahil edildi.
-* sbadmin2 teması blade formatında sisteme gömüldü.
-* font-awesome sisteme temaya dahil edildi.
-* .htaccess ile index.php kaldırıldı.
+## Kurulum
+
+Sql içerdedir.
+Kullanıcı Adı: Admin
+Parola : 123123
