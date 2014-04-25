@@ -14,6 +14,7 @@
                         <!-- /input-group -->
                     </li>
                     <li><a href="{{base_url('admin/dashboard')}}"><i class="fa fa-dashboard fa-fw"></i> Genel Bakış</a></li>
+                    <li><a href="{{base_url('admin/domain')}}"><i class="fa fa-globe fa-fw"></i> Domain Yönetimi</a></li>
                     <li><a href="{{base_url('admin/user')}}"><i class="fa fa-user fa-fw"></i> Kullanıcı Yönetimi</a></li>
                 </ul>
                 <!-- /#side-menu -->

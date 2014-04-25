@@ -56,6 +56,12 @@ $route['admin/user/(:num)'] = ($_SERVER['REQUEST_METHOD'] == 'GET') ? 'auth/edit
 $route['admin/user/(:num)/edit'] = 'auth/edit/$1';
 $route['admin/user/(:num)/delete'] = 'auth/destroy/$1';
 
+$route['admin/domain'] = ($_SERVER['REQUEST_METHOD'] == 'GET') ? 'domain/index' : 'domain/store';
+$route['admin/domain/create'] = 'domain/create';
+$route['admin/domain/(:num)'] = ($_SERVER['REQUEST_METHOD'] == 'GET') ? 'domain/edit/$1' : 'domain/update/$1';
+$route['admin/domain/(:num)/edit'] = 'domain/edit/$1';
+$route['admin/domain/(:num)/delete'] = 'domain/destroy/$1';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
